@@ -1,4 +1,5 @@
 import React from 'react'
+import { media } from '../../assets/assets'
 import Button from '../elements/Button'
 
 function Signup() {
@@ -38,7 +39,7 @@ function Signup() {
             </div>
             <div className='flex flex-row justify-between m-2' >
                 <div className='w-5/12'>
-                    <img src="/images/fb.svg" alt="facebook" />
+                    <img src={media.facebook} alt="facebook" />
                 </div>
                        <div className='w-5/12'>
                         <img src="/images/google.svg" alt="google" />

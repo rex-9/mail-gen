@@ -1,13 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import { images } from '../../assets/assets';
 
 export default function Header() {
   return (
     <nav className="flex flex-wrap items-center justify-between p-4 bg-gray-200">
     <div className="w-auto lg:order-2 lg:w-1/5 lg:text-center">
-        <a className="text-xl font-semibold text-gray-800 font-heading" to="/">
-            <img src="/images/Logo.svg" alt="" width={150} height={55} />
-        </a>
+        <Link className="text-xl font-semibold text-gray-800 font-heading" to="/">
+            <img src={images.logo} alt="Prompt Me Logo" width={150} height={55} />
+        </Link>
     </div>
     <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 text-indigo-500 border border-indigo-500 rounded navbar-burger">

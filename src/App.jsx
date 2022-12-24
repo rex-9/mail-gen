@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/elements/Header'
 import Welcome from './components/pages/Welcome';
 import Dashboard from './components/pages/Dashboard';
 import Templates from './components/pages/Templates';
@@ -18,9 +17,8 @@ import Signup from './components/pages/Signup'
 function App() {
 
   return (
-    <div className="App">
+    <section className="App">
       <Router>
-        <Header />
         <Routes>
           <Route path='about' element={<About />} />
           <Route path='faqs' element={<Faqs />} />
@@ -36,7 +34,7 @@ function App() {
           <Route path='signup' element={<Signup />} />
         </Routes>
       </Router>
-    </div>
+    </section>
 
   )
 }

@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .sidebar-item {
+    @apply flex items-center gap-4 justify-start mb-4 pr-2 pl-3 py-1 rounded-lg w-40;
+  }
+
+  .sidebar-item:hover {
+    @apply bg-white;
+  }
+
+  .btn {
+    @apply bg-primary text-white rounded-lg px-4 py-2 uppercase;
+  }
+
+  .btn:hover {
+    @apply bg-primary/70;
+  }
+}

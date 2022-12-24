@@ -1,4 +1,5 @@
 import React from 'react'
+import { media } from '../../assets/assets'
 import Button from '../elements/Button'
 
 function Login() {
@@ -22,7 +23,7 @@ function Login() {
                         </div>
                     </div>
                     <div >
-                    
+
                     </div>
                     <Button >Login</Button>
                 </form>
@@ -32,12 +33,12 @@ function Login() {
             </div>
             <div className='flex flex-row justify-between m-2' >
                 <div className='w-5/12'>
-                    <img src="/images/fb.svg" alt="facebook" />
+                    <img src={media.facebook} alt="facebook" />
                 </div>
                        <div className='w-5/12'>
                         <img src="/images/google.svg" alt="google" />
-                        </div> 
-                        
+                        </div>
+
                     </div>
             <div className="flex items-center justify-center mt-6">
                 <Link to="/" target="_blank" className="inline-flex items-center text-sm bold text-center text-[#8C8CA2] hover:text-gray-700 dark:text-gray-100 dark:hover:text-white">
