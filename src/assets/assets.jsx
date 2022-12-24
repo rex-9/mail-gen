@@ -17,6 +17,9 @@ import resources from "./icons/resources.svg";
 import help from "./icons/help.svg";
 import logout from "./icons/logout.svg";
 
+import save from "./icons/save.svg";
+import copy from "./icons/copy.svg";
+
 export const media = {
   facebook,
   twitter,
@@ -34,6 +37,8 @@ export const icons = {
   resources,
   help,
   logout,
+  save,
+  copy,
 };
 
 export const images = {

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Welcome from './components/pages/Welcome';
@@ -14,7 +13,7 @@ import AssessmentQuestions from './components/pages/AssessmentQuestions';
 import Login from './components/pages/Login'
 import Signup from './components/pages/Signup'
 
-function App() {
+const App = () => {
 
   return (
     <section className="App">
@@ -35,7 +34,6 @@ function App() {
         </Routes>
       </Router>
     </section>
-
   )
 }
 
