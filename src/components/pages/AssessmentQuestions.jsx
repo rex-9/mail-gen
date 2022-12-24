@@ -64,7 +64,7 @@ export default function AssessmentQuestions() {
         </div>
         <div className='answer-section flex flex-col justify-between p-4'>
              {questions[currentQuestion].answerOptions.map((answerOption) => (
-             <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerTest}</button>) )}
+             <button type="button" onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerTest}</button>) )}
         </div>
     </div>
   )
