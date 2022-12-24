@@ -14,6 +14,11 @@ import analytics from "./icons/analytics.svg";
 import setting from "./icons/setting.svg";
 import resources from "./icons/resources.svg";
 
+import edit from "./icons/edit.svg";
+import undo from "./icons/undo.svg";
+import refresh from "./icons/refresh.svg";
+import redo from "./icons/redo.svg";
+
 import help from "./icons/help.svg";
 import logout from "./icons/logout.svg";
 
@@ -35,6 +40,10 @@ export const icons = {
   analytics,
   setting,
   resources,
+  edit,
+  undo,
+  refresh,
+  redo,
   help,
   logout,
   save,
